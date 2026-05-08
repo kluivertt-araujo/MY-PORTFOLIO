@@ -79,13 +79,13 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="flex flex-wrap justify-center gap-4 mb-12"
           >
-            <a href="/my-portfolio#contact">
+            <a href="/#contact">
               <Button size="lg" className="glow">
                 <Mail className="mr-2 h-4 w-4" />
                 {lang === "pt" ? "Entre em Contato" : "Contact Me"}
               </Button>
             </a>
-            <a href="/my-portfolio#projects">
+            <a href="/#projects">
               <Button variant="outline" size="lg">
                 {lang === "pt" ? "Ver Projetos" : "See Projects"}
               </Button>

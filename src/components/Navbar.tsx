@@ -18,6 +18,8 @@ const navItemsEn = [
   { name: "Contact", href: "#contact" },
 ];
 
+const resumeHref = "/Kluivertt_Araujo_Resume.pdf";
+
 const Navbar = () => {
   const { lang } = useLanguage(); // Pegando o idioma global
   const [isScrolled, setIsScrolled] = useState(false);
@@ -69,7 +71,7 @@ const Navbar = () => {
             </motion.a>
           ))}
           <Button size="sm" variant="outline" asChild>
-            <a href="/my-portfolio/Kluivertt_Araujo.pdf" target="_blank">
+            <a href={resumeHref} target="_blank" rel="noopener noreferrer">
               {lang === "pt" ? "Currículo" : "Resume"}
             </a>
           </Button>
@@ -114,7 +116,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button variant="outline" asChild className="mt-4">
-                <a href="/my-portfolio/Kluivertt_Araujo.pdf" target="_blank">
+                <a href={resumeHref} target="_blank" rel="noopener noreferrer">
                   {lang === "pt" ? "Currículo" : "Resume"}
                 </a>
               </Button>

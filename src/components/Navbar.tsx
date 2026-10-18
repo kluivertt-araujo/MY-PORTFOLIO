@@ -6,7 +6,7 @@ import { useLanguage } from "@/hooks/use-language";
 
 const navItemsPt = [
   { name: "Sobre", href: "#about" },
-  { name: "Skills", href: "#skills" },
+  { name: "Tecnologias", href: "#skills" },
   { name: "Projetos", href: "#projects" },
   { name: "Contato", href: "#contact" },
 ];
